@@ -1,0 +1,170 @@
+.margin100{
+    margin-top: 100px;
+}
+
+.bor{
+    border: 2px solid;
+    border-color: black;
+}
+.backgr{
+    background-image: url("../img/piano3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-color: #cccccc;
+    overflow: hidden;
+}
+.backgr2{
+      background-image: url("../img/dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-color: #cccccc;  
+    overflow: hidden;
+}
+
+.backgr3{
+    background-image: url("../img/onamabackgr.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+     background-color: #cccccc;
+    overflow: hidden;
+}
+.proziran{
+    opacity: 0.8;
+    background-color: transparent !important;
+    color: white;
+}
+.sakrij{
+    display: none;
+}
+
+.logoSize{
+    max-height: 200px;
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+.username{
+        border-left: 1px solid !important;
+}
+.fit-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+    
+.logo{
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.button-forma{
+    min-height: 40px;
+    min-width: 100px;
+}
+ /*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 052 css*/
+.jssorb052 .i {position:absolute;cursor:pointer;}
+.jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+.jssorb052 .i:hover .b {fill-opacity:.7;}
+.jssorb052 .iav .b {fill-opacity: 1;}
+.jssorb052 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 053 css*/
+.jssora053 {display:block;position:absolute;cursor:pointer;}
+.jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+.jssora053:hover {opacity:.8;}
+.jssora053.jssora053dn {opacity:.5;}
+.jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+
+.index-font{
+    font-size: 30px;
+}
+.margin-top-20{
+    margin-top: 20px;
+
+}
+
+.margin-top-54{
+    margin-top: 54px;
+
+}
+
+.margin-top-70{
+    margin-top: 70px;
+}
+.padding-top-54 {
+  padding-top: 100px !important;
+}
+@media only screen and (min-width: 600px) {
+.padding-top-54 {
+  padding-top: 100px !important;
+}
+}
+@media only screen and (min-width: 768px) {
+.padding-top-54 {
+  padding-top: 120px !important;
+}
+}
+
+
+.buttonx {
+  background-color: B8B8B8;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.buttonx :hover {
+  background-color: #B8B8B8;
+  color: white;
+}
+
+.font-size-20 {
+    font-size: 20px;
+};
+
+
+.razmak p {
+    color: red !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.moj-slider{
+    width: auto !important;
+}
+.naslov{
+    font-size: 7vw !important;
+} 
+@media only screen and (min-width: 600px) {
+.naslov{
+    font-size: 5vw !important;
+}
+}
+@media only screen and (min-width: 768px) {
+.naslov{
+    font-size: 2vw !important;
+}
+    .moj-slider{
+    width: 980px !important;
+}
+}
+.kontaktiraj-btn{
+        padding-top: 50px;
+}
+
+
